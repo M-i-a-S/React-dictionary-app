@@ -10,8 +10,14 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <a href="https://github.com/M-i-a-S/dictionary-app">Coded </a>by Mia
-          Stajić
+          <a
+            href="https://github.com/M-i-a-S/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Coded{" "}
+          </a>
+          by Mia Stajić
         </footer>
       </div>
     </div>
