@@ -46,16 +46,14 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
-          <h1> What are you looking for today? </h1>
-          <form className="search-bar" onSubmit={handleSubmit}>
-            <input
-              type="search"
-              placeholder="Type a word"
-              onChange={handleSearchWord}
-            />
-          </form>
-        </section>
+        <form className="search-bar" onSubmit={handleSubmit}>
+          <input
+            type="search"
+            placeholder="Type a word"
+            onChange={handleSearchWord}
+          />
+        </form>
+
         <Results results={results} />
         <Photos photos={photos} />
       </div>

@@ -1,6 +1,14 @@
 .Synonyms {
   font-size: 15px;
-  margin: 20px 0;
+}
+
+.synonyms {
+  margin: 10px 4px;
+  background-color: rgba(207, 123, 84, 0.3);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 5px 10px;
 }
 
 .Synonyms li {

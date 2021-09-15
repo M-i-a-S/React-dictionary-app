@@ -1,14 +1,17 @@
 body {
-  background: #ececec;
+  background: #e9e2d0;
 }
 
 .App .container {
   max-width: 700px;
 }
 .App-header {
-  color: white;
+  color: rgba(110, 107, 107, 0.993);
   text-align: center;
   margin: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0px 8px 8px rgba(0, 0, 0, 8%);
 }
 
 .App-footer {
