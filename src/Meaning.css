@@ -1,0 +1,12 @@
+.Meaning h4 {
+  font-weight: bold;
+}
+
+.Meaning .Definition:first-letter {
+  text-transform: capitalize;
+}
+
+.Meaning .Example {
+  opacity: 0.8;
+  font-style: italic;
+}

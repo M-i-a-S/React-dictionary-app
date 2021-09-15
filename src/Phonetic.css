@@ -1,0 +1,8 @@
+.Phonetic a {
+  font-size: 20px;
+}
+
+.Phonetic .Text {
+  opacity: 0.8;
+  font-weight: 500;
+}

@@ -1,9 +1,18 @@
+body {
+  background: #ececec;
+}
+
+.App .container {
+  max-width: 700px;
+}
 .App-header {
+  color: white;
   text-align: center;
   margin: 40px;
 }
 
 .App-footer {
+  color: white;
   text-align: center;
   margin: 30px 0;
   font-size: small;
