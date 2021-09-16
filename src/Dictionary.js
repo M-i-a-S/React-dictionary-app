@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
+import Button from "./Button";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
@@ -53,6 +54,7 @@ export default function Dictionary(props) {
             onChange={handleSearchWord}
           />
         </form>
+        <Button />
 
         <Results results={results} />
         <Photos photos={photos} />
