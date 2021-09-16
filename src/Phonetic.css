@@ -8,6 +8,10 @@
   cursor: pointer;
 }
 
+.SoundIcon:active {
+  font-size: 23px;
+}
+
 .Phonetic .Text {
   opacity: 0.8;
   font-weight: 500;
