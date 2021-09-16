@@ -1,4 +1,9 @@
 .Photos img {
   border-radius: 3px;
   margin: 10px 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.Photos img:hover {
+  opacity: 0.6;
 }

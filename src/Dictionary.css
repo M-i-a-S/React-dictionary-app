@@ -16,9 +16,13 @@
 .Dictionary input {
   border: 1px solid #ddd;
   border-radius: 40px;
+  color: #26bdca;
   outline: none;
   width: 70%;
   padding: 8px 5px;
   margin: 0 auto;
   display: block;
+}
+::placeholder {
+  color: #26bdca;
 }

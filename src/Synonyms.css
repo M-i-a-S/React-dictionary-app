@@ -4,11 +4,26 @@
 
 .synonyms {
   margin: 10px 4px;
-  background-color: rgba(207, 123, 84, 0.3);
+  background-color: rgb(81, 209, 211, 0.4);
   border: 1px solid transparent;
   border-radius: 3px;
+  color: rgba(110, 107, 107, 0.993);
   display: inline-block;
   padding: 5px 10px;
+  border-bottom: 1px solid #26bdca;
+}
+
+.synonyms::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #26bdca;
+  transition: width 0.3s;
+}
+
+.synonyms:hover::after {
+  width: 100%;
 }
 
 .Synonyms li {
