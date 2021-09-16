@@ -16,7 +16,7 @@
 .Dictionary input {
   border: 1px solid #ddd;
   border-radius: 40px;
-  color: #26bdca;
+  color: rgba(110, 107, 107, 0.993);
   outline: none;
   width: 70%;
   padding: 8px 5px;
@@ -24,5 +24,5 @@
   display: block;
 }
 ::placeholder {
-  color: #26bdca;
+  color: rgba(110, 107, 107, 0.993);
 }
